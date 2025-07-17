@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: #fff;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.cta-button {
+  margin-top: 25px;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #444;
+}
+
+/* Navigation */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  background-color: #f2f2f2;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.top-nav a:hover {
+  color: #000;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.description h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
